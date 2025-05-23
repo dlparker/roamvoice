@@ -1,0 +1,3 @@
+
+A gui tool that knits together Emacs, SeechText and some python tools
+to enable authoring tasks without much additional emacs finger damage.
