@@ -1,0 +1,9 @@
+qtpy>=2.4.3
+PyQtWebEngine>=5.15.7
+PyQtWebEngine-Qt5>=5.15.16
+pywebview>=5.4
+nicegui>=2.18.0
+pgi==0.0.11.2
+PyGObject==3.52.3
+pycairo==1.28.0
+pydbus==0.6.0

@@ -1,0 +1,21 @@
+1. Use SpeechNote to capture stuff:
+  qdbus net.mkiol.SpeechNote /net/mkiol/SpeechNote net.mkiol.SpeechNote.InvokeAction start-listening-clipboard ""
+ or
+
+qdbus net.mkiol.SpeechNote /net/mkiol/SpeechNote net.mkiol.SpeechNote.InvokeAction start-listening-active-window ""
+
+ with pydbus?
+
+2. Use python -m pyperclip --paste (or from python pyperclip.paste()) to collect from clipboard
+
+3. Use pyemacs or emacsclient to send commands to do org roam stuff
+
+4. build a simple ui to have buttons and hotkeys to do the main ops, add a link, select a file, create a file and add a link,
+   list files, place cursor for text insertion, etc.
+
+
+
+emacsclient -e '(save-buffer (org-roam-capture--finalize-find-file))'
+emacsclient -e '(org-roam-capture--finalize-insert-link)'
+# this doesn't work, but does send the command to the right place, so maybe other things
+emacsclient -e '(with-current-buffer (window-buffer (selected-window)) (org-ctrl-c-ctrl-c))' 

@@ -1,0 +1,1 @@
+sudo apt install libcairo2-dev pkg-config python3-dev libgirepository-2.0-dev
