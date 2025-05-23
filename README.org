@@ -1,3 +1,3 @@
 
-A gui tool that knits together Emacs, SeechNote and some python tools
+A gui tool that knits together Emacs, SpeechNote and some python tools
 to enable authoring tasks without much additional emacs finger damage.
